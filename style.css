@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient( 140deg, red, blue, pink);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    height: 80vh;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.boxes {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.box {
+    background-color: rgba(172, 172, 172, 0.123);
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    font-size: 13vmin;
+    color: black;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+}
+.reset{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
