@@ -12,6 +12,10 @@ main{
     height: 80vh;
     text-align: center;
 }
+.msg{
+    font-size: 10vmin;
+    color: white;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -40,11 +44,14 @@ main{
     box-shadow: 0px 0px 5px;
     cursor: pointer;
 }
-.reset{
+#reset{
     padding: 5px;
     border: none;
     border-radius: 5px;
     background-color: black;
     color: white;
     cursor: pointer;
+}
+.hide{
+    display: none;
 }
