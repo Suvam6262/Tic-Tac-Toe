@@ -1,6 +1,9 @@
 # Tic-Tac-Toe
 A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. This game allows two players to play on the same screen, with an interactive UI and a reset button to restart the game.
 
+# Live Demo
+[Play the Game](https://suvam6262.github.io/Tic-Tac-Toe/)
+
 ## Features
 - Playable by two players taking turns
 - Displays the winner or draw message
